@@ -26,7 +26,7 @@ const Book = ({ book }) => {
             </div>
             <div >
                 {/* <HiMinusCircle title="Remove from list" className={styles.minus_icon} /> */}
-                <HiPlusCircle title="Add to Reading" />
+                <HiPlusCircle title="Add to Reading" style={{ fontSize: '2rem', color: 'blueviolet', cursor: 'pointer' }} />
                 {/* <HiCheckCircle title="Mark as Finish" className={styles.check_icon} /> */}
             </div>
         </div>
